@@ -1,0 +1,72 @@
+ 1  sudo apt update
+    2  sudo apt install -y apache2 php mysql 
+    3  sudo apt install -y apache2 php mysql* 
+    4  sudo systemctl enable 
+    5  sudo systemctl enable apache2
+    6  sudo start apache2
+    7  sudo systemctl start apache2
+    8  sudo systemctl enable mysql
+    9  sudo systemctl start mysql
+   10  wget http://wordpress.org/latest.tar.gz
+   11  ls
+   12  sudo mkdir /var/www/html/website
+   13  sudo tar -xvf latest.tar.gz -C /var/www/html/website/
+   14  sudo nano /etc/apache2/sites-available/000-default.conf 
+   15  sudo restart apache2
+   16  sudo systemctl restart apache2
+   17  sudo mysql_secure_installation 
+   18  sudo mysql
+   19  ls
+   20  sudo cp wp-config-sample.php wp-config.php
+   21  sudo nano wp-config.php
+   22  sudo systemctl restart apache2
+   23  sudo systemctl restart mysql
+   24  sudo apt-get install -y php*
+   25  sudo chmod 755 -R /var/www/html/*
+   26  sudo chown www-data:www-data  -R /var/www/html/*
+   27  sudo systemctl restart mysql
+   28  sudo systemctl restart apache2
+   29  hostname
+   30  sudo nano wp-config.php
+   31  sudo apt-get install php libapache2-mod-php php-mysql php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+   32  ls
+   33  sudo nano /etc/apache2/sites-available/000-default.conf 
+   34  sudo nano /var/www/html/website/wordpress/info.php
+   35  sudo systemctl restart apache2
+   36  sudo nano /var/www/html/website/wordpress/wp-config.php 
+   37  sudo rm -fr /var/www/html/* 
+   38  sudo git pull https://github.com/Srishti-Singh94/wordpress.git master
+   39  sudo git pull https://github.com/Srishti-Singh94/wordpress  master
+   40  sudo git remote add https://github.com/Srishti-Singh94/wordpress.git
+   41  sudo git remote add https://github.com/Srishti-Singh94/wordpress
+   42  sudo git remote add origin  https://github.com/Srishti-Singh94/wordpress
+   43  sudo git init
+   44  sudo git remote add origin  https://github.com/Srishti-Singh94/wordpress
+   45  sudo git pull https://github.com/Srishti-Singh94/wordpress  master
+   46* 
+   47  sudo git pull https://github.com/ayushmaan-singh1/website.git public
+   48  ls
+   49  sudo mv wordpress /var/www/
+   50  sudo nano /var/www/wordpress/wp-config.php 
+   51  sudo nano /etc/apache2/sites-available/000-default.conf 
+   52  sudo systemctl reload apache2
+   53  sudo systemctl restart apache2
+   54  sudo git pull https://github.com/ayushmaan-singh1/website.git public
+   55  ls
+   56  sudo git pull https://github.com/ayushmaan-singh1/website.git public
+   57  clear
+   58  sudo cp /var/www/wordpress wordpress
+   59  sudo cp -r /var/www/wordpress wordpress
+   60  ls
+   61  clear
+   62  sudo git remote add origin  https://github.com/Srishti-Singh94/wordpress
+   63  sudo git checkout -b public
+   64  ls
+   65  sudo git add wordpress
+   66  sudo git commit -m "Added Wordpress Website"
+   67  sudo git push origin public
+   68  sudo git remote add origin  https://github.com/Srishti-Singh94/
+   69  sudo git remote add origin  https://github.com/Srishti-Singh94.git
+   70  sudo git remote add origin  https://github.com/Srishti-Singh94/wordpress.git
+   71  sudo git push origin public
+   72  history
